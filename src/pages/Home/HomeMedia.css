@@ -1,0 +1,49 @@
+@media (max-width: 992px){
+    .Home .container .inform h1{
+        font-size: 4em;
+    }
+    .Home .container .inform p{
+        font-size: 1.1em;
+    }
+ }
+/* medium md screens */
+@media (max-width:768px){
+    .Home .container .inform h1{
+        font-size: 3.5em;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .Home .container .inform p{
+        font-size: 1.1em;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .HomeSvg{
+        margin: 0 auto;
+    }
+    .Home .container .inform {
+        margin:15px 0;
+    }
+ }
+/* extra small xs screens */
+@media (max-width: 576px) { 
+    .Home .container .inform h1{
+        font-size: 3.5em;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .Home .container .inform p{
+        font-size: 1.1em;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .Home .container .row .HomeSvg .home-img{
+        width: 70%;   
+    }
+    .HomeSvg{
+       margin: 0 auto;
+    }
+    .Home .container .inform {
+        margin:15px 0;
+    }
+}

@@ -1,0 +1,136 @@
+[
+    {
+      "name": "bookStore",
+      "id":1,
+      "date":"15/2/2020",
+      "description":"bookStore is a modern multipurposes template.It can be used by a creative agency, a coorporate company for sale and show several books. The template is responsive, so you can view it also in the mobile/tablets devices and it looks very nice in thoose devices. BookStore is retina ready that means it looks great and very sharp in high resolution devices.",
+      "Features":["Creative and unique and mordern powerful HTML5/CSS3 template",
+        "3 html page",
+        "Reusable unique elements with different style",
+        "jQuery Powered",
+        "Bootstrap fully responsive layout and retina ready.",
+        "Valid W3C HTML5 and CSS3 Markup",
+        "Easy to Customize Structure and Code",
+        "Fullpage template",
+        "Onepage template",
+        "Landing page template"],
+      "images":[
+                "/pics/bookStore.JPG",
+                "/pics/bookStore/bookStore2.JPG",
+                "/pics/bookStore/bookStore3.JPG",
+                "/pics/bookStore/bookStore4.JPG",
+                "/pics/bookStore/bookStore5.JPG",
+                "/pics/bookStore/bookStore6.JPG",
+                "/pics/bookStore/bookStore7.JPG"
+               ]    
+    },{
+       "name": "Discover",
+       "id":2,
+       "date":"25/2/2020",
+       "description":" Discover is a perfect modern and new trend style travel & tourism HTML Template. The template is specially designed for tour, travel agency, travel website, tour operator, tourism, trip, destinations, adventure, and all other travel & tourism websites and businesses.",
+       "Features":[
+        "Includes Home versions",
+        "jQuery Powered",
+        "Includes Owl Carousel Slider",
+        "Valid HTML5 / CSS3",
+        "CSS3 Animations",
+        "Advance Bootstrap 4 Framework",
+        "Cross Browser Compatibility",
+        "W3C Validate Code",
+        "Google Free Fonts",
+        "Fully Responsive",
+        " Extensive Documentation",
+        " Fully customisable & Easy to modify",
+        "All files are well commented"
+        ],
+       "images":[
+                "/pics/Discover.JPG",
+                "/pics/Discover/Discover1.JPG",
+                "/pics/Discover/Discover2.JPG",
+                "/pics/Discover/Discover3.JPG",
+                "/pics/Discover/Discover4.JPG",
+                "/pics/Discover/Discover5.JPG",
+                "/pics/Discover/Discover7.JPG",
+                "/pics/Discover/Discover8.JPG",
+                "/pics/Discover/Discover9.JPG",
+                "/pics/Discover/Discover10.JPG",
+                "/pics/Discover/Discover11.JPG"
+                ]    
+    },{
+        "name": "MedicalApp",
+        "id":3,
+        "date":"25/2/2020",
+        "description":" MedicalApp Template:- Technologies make world very hi-tech. Every business and industries are efficiently utilizing these technological platforms for their growth. Even these technologies are effectively used by medical related businesses. Every medical business like hospital, clinic, chemist, healthcare organization, etc. is utilizing this gift of technology.",
+        "Features":[
+        "Responsive Design",
+        "Valid W3C HTML5 and CSS3 Markup", 
+        "Page Layouts",
+        "Homepage Layouts",
+        "Icons – Font Awesome",
+        "Bootstrap",
+        "Google Free Fonts",
+        "Documentation Included",
+        " Font Face Fonts",
+        "Clean Design",
+        "jQuery Powered"
+    ],
+        "images":[
+                 "/pics/Medical.JPG",
+                 "/pics/Medical/Medical2.JPG",
+                 "/pics/Medical/Medical3.JPG",
+                 "/pics/Medical/Medical4.JPG",
+                 "/pics/Medical/Medical5.JPG",
+                 "/pics/Medical/Medical6.JPG",
+                 "/pics/Medical/Medical7.JPG",
+                 "/pics/Medical/Medical8.JPG",
+                 "/pics/Medical/Medical9.JPG"
+
+                 ]    
+    },{
+        "name": "MobApp",
+        "id":4,
+        "date":"25/2/2020",
+        "description":" MobApp is a creative, elegant, modern, clean and Responsive HTML5/CSS3 App landing page based on Bootstrap. Compatible with Desktop,Laptop,table,mobile or any device. MobApp is simple and clean design Anyone can use this template showcase any product and customize as his wishes. All files are clearly organised we believe it will be easy to use and edit them. Any one can customize this template as his wishes.",
+        "Features":[
+        "Unique and Modern Style",
+        "jQuery Powered",
+        "Based on 1170px Grid System",
+        "Super Clear and Clean Layout.",
+        "Awesome and Creative Design.",
+        "Pixel Perfect.",
+        "Fully Customizable.",
+        "Free Google Fonts.",
+        "Retina Ready.",
+        "Free Font Based Icons.",
+        " Great Support.",
+        " Strange and unique interface", "streamlined and impressive."],
+        "images":[
+                 "/pics/MobApp.JPG",
+                 "/pics/MobApp/MobApp1.JPG",
+                 "/pics/MobApp/MobApp2.JPG",
+                 "/pics/MobApp/MobApp3.JPG",
+                 "/pics/MobApp/MobApp4.JPG",
+                 "/pics/MobApp/MobApp5.JPG",
+                 "/pics/MobApp/MobApp6.JPG",
+                 "/pics/MobApp/MobApp7.JPG",
+                 "/pics/MobApp/MobApp8.JPG",
+                 "/pics/MobApp/MobApp9.JPG",
+                 "/pics/MobApp/MobApp10.JPG"
+                 ]    
+    },{
+        "name": "Kotam",
+        "id":5,
+        "date":"25/2/2020",
+        "description":" Kotam is a high performance photo graphic portoflio HTML5 template. kotam is crafted with a modern & creative design for professional use.",
+        "Features":["Creative and unique and mordern powerful HTML5/CSS3 template",
+            "Valid W3C HTML5 and CSS3 Markup",
+            "Bootstrap fully responsive layout and retina ready.",
+            "Fullpage template","Onepage template","Landing page template"],
+        "images":[
+                 "/pics/Potoflio.JPG",
+                 "/pics/Portoflio/Potoflio2.JPG",
+                 "/pics/Portoflio/Potoflio3.JPG",
+                 "/pics/Portoflio/Potoflio4.JPG"
+                 ]    
+    }
+]

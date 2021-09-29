@@ -1,0 +1,80 @@
+
+:root {
+    --main: #f05454;
+    --second: #e8e8e8;
+    --third:  #30475e;
+    --fourth: #222831;
+  }
+body
+{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.Home {
+    background-position: bottom;
+    padding-top:70px ;
+    padding-bottom: 56px;
+    color: var(--second);
+    background-image: url(./sky.jpg);
+}
+.Home .video {
+    width: 100vw;
+    position: absolute;
+    top: 70px;
+    object-fit: cover;
+    left: 0;
+  }
+.Home .container .row{
+    --top:5%;
+    margin:var(--top) 0;
+} 
+.Home .container .row .HomeSvg .home-img{
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.Home .container .inform{
+   height: 60%;
+   margin:10% 0 ;
+   line-height: 35px;
+   
+}
+.Home .container .inform h1{
+    font-size: 6em;
+    mix-blend-mode: hard-light;   
+}
+.Home .container .inform h1 span{
+    font-family: 'Sriracha', cursive;
+    color: var(--main);
+}
+.Home .container .inform p{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    opacity: 0.8;
+    color:var(--fourth);
+
+}
+.Home .container  .socialOverlay{
+    margin: 0 auto;
+    width: 100%;
+}
+.Home .container  .socialOverlay .list-media{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.Home .container .socialOverlay  .Homesocial{
+    height: 5%;
+    margin: 0 10px;  
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+    }
+.Home .container .socialOverlay  .Homesocial .social-icons {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #dc3545;
+    }
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0rem; 
+ }

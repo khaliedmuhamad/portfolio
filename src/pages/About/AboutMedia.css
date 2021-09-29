@@ -1,0 +1,27 @@
+:root {
+    --main: #f05454;
+    --second: #e8e8e8;
+    --third:  #30475e;
+    --fourth: #222831;
+  }
+@media (max-width:768px){
+    .About .container .right p{
+       text-align: center !important;
+        letter-spacing: 1px;
+
+        color: var(--main);
+        opacity: 0.9;
+    }
+
+ }
+/* extra small xs screens */
+@media (max-width: 576px) { 
+
+    .About .container .right p{
+        text-align: center !important;
+         letter-spacing: 1px;
+         font-size: 16px;
+         color: var(--main);
+         opacity: 0.9;
+     }
+}

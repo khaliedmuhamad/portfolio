@@ -1,0 +1,14 @@
+/* scroll bar */
+/* width */
+:root {
+  --main: #f05454;
+  --second: #e8e8e8;
+  --third:  #30475e;
+  --fourth: #222831;
+  --main-text:#242F51;
+
+}
+  /* Track */
+body {
+  background-color: #eeeeee !important;
+}

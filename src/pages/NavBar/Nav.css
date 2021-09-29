@@ -1,0 +1,29 @@
+
+.navbar-light .navbar-brand{
+    color:#FCAE61;
+}
+.navbar-light .navbar-brand:hover , .navbar-light .navbar-brand:active{
+    color:#ff8000;
+}
+.logo{
+    animation: write 5s  ease-in-out infinite; 
+}
+@keyframes write {
+    0%{
+        color:#242f51;
+        }
+    50%{
+        color:#4320e0;
+    }
+    100%{
+        color:#242F51;
+    }
+}
+
+.nav-item.contact a{
+    border-radius: 25px;
+    background-color: #4F37DB;
+    color: #eee;
+
+}
+

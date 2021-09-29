@@ -1,0 +1,110 @@
+
+
+:root {
+    --main: #f05454;
+    --second: #e8e8e8;
+    --third:  #30475e;
+    --fourth: #222831;
+  }
+.loadingVideo{
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.MoreProject{
+    position: relative;
+    top: 5px;
+    background:#343a40 ;
+}
+.MoreProject h1{
+    color:var(--main)
+}
+.MoreProject p{
+    color:var(--second)
+}
+.MoreProject .slider{
+    width: 70%;
+    margin:0 auto;
+    -webkit-box-shadow: 0 5px 9px rgba(0,0,0,.5);
+            box-shadow: 0 5px 9px rgba(0,0,0,.5);
+
+}
+.carousel .slider-wrapper.axis-horizontal .slider .slide{
+    padding: 8px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background: rgba(29, 28, 28, 0.185) !important; 
+}
+.MoreProject .inform{
+    color:var(--second);
+    letter-spacing: 2px;
+}
+.MoreProject .inform h2{
+    color:var(--main);
+    margin: 8px 0;
+}
+.MoreProject .container .inform .list {
+    list-style-type: square;
+    margin: 16px 0;
+}
+.MoreProject .container .inform .list .items{
+    margin: 8px 0;
+}
+.carousel.carousel-slider .control-arrow {
+    top: 10% !important;
+    background: rgba(0, 0, 0, 0.616) !important;
+    font-size: 26px;
+    bottom: 0;
+    width: 60px !important;
+    margin-top: 0;
+    padding: 0px !important;
+    height: 60px !important;
+    position: absolute;
+    border-radius: 50%;
+
+}
+.carousel.carousel-slider .control-arrow:hover {
+    background: var(--main) !important;
+}
+
+@media (max-width: 992px){
+  
+    .MoreProject .inform{color:rgb(238, 255, 0) !important;}
+    
+ }
+ 
+@media (max-width:768px){
+ 
+    .MoreProject .inform{color:rgb(0, 204, 255) !important;}
+    .MoreProject .slider{
+        width: 100%;
+        margin:0 auto}
+    .MoreProject .inform{
+        letter-spacing: 1.5px;
+        text-align: left;
+    }    
+ }
+ 
+@media (max-width: 576px) { 
+    .MoreProject .inform{color:rgb(255, 0, 0) !important;}
+
+    .MoreProject{text-align: center;}
+    .MoreProject .slider{
+        width: 100%;
+        margin:0 auto}
+    .MoreProject .inform h2{
+        color:var(--main);
+        margin: 8px 0;
+        text-align: left;
+    }    
+    .MoreProject .inform{
+        letter-spacing: 1px;
+        text-align: left;
+    }
+    .MoreProject .container .inform .list .items{
+        margin: 16px 0;
+    }
+}

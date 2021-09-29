@@ -1,0 +1,113 @@
+:root {
+    --main: #f05454;
+    --second: #e8e8e8;
+    --third:  #30475e;
+    --fourth: #222831;
+  }
+.Footer{
+    overflow: hidden;
+    height:32.8vh;
+    background-color: var(--fourth);
+}
+.Footer .container{
+    position: relative;
+    top:50px;
+    color: var(--second);
+}
+.social-icons{
+    font-size: 25px;
+    margin-top: 10px;
+    color: var(--second);
+}
+@media (max-width:768px){
+    .Footer{
+        height: 80vh;
+    }
+    .brand{
+        margin: 10px auto;
+        text-align: center;
+    }
+    .Footer .container .row .links {
+        position: relative;
+        top: 75px;
+    }
+.Footer .container .row .links .link-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+.Footer .container .row .links .link-list .link-item{
+    margin: 0 auto;
+}
+
+.Footer .container .row .social  .list-media{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 75px;
+    left: 0px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.Footer .container .row .social  .list-media .item-media{
+    margin: 0 auto;
+    }    
+ 
+ .Connects .container .row .social .hello{
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+}
+/* extra small xs screens */
+@media (max-width: 576px) { 
+    .Footer{height: 100vh;}
+
+    .brand{
+        margin: 10px auto;
+        text-align: center;
+    }
+    .Footer .container .row .links {
+        position: relative;
+        top: 75px;
+    }
+.Footer .container .row .links .link-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+.Footer .container .row .links .link-list .link-item{
+    margin: 0 auto;
+}
+
+.Footer .container .row .social  .list-media{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 75px;
+    left: 0px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.Footer .container .row .social  .list-media .item-media{
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    }    
+ .Connects .container .row .social .hello{
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+}
