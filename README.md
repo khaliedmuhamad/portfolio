@@ -1,5 +1,5 @@
-#View the deployment of the website from netlify:
-
+# View the website from netlify:
+https://khaledlol.netlify.app.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
