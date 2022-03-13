@@ -10,37 +10,37 @@ body
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
-.Home {
+.upper{
     background-position: bottom;
-    padding-top:70px ;
-    padding-bottom: 56px;
-    color: var(--second);
-    background-image: url(./sky.jpg);
-}
-.Home .video {
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)), 
+    url("./sky1.jpg");
+    background-size:cover;
+    padding: 0;
     width: 100vw;
-    position: absolute;
-    top: 70px;
-    object-fit: cover;
-    left: 0;
-  }
+    height: 100vh;
+}
+.Home{
+    height: 80vh;
+}
+.Home .container {
+    height: 100%;}
 .Home .container .row{
-    --top:5%;
-    margin:var(--top) 0;
-} 
-.Home .container .row .HomeSvg .home-img{
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 100%;
+    align-content: center
 }
 .Home .container .inform{
-   height: 60%;
-   margin:10% 0 ;
    line-height: 35px;
-   
+   height: 50%;
 }
 .Home .container .inform h1{
-    font-size: 6em;
-    mix-blend-mode: hard-light;   
+    font-size: 9em;
+    font-family: 'Sansita Swashed', cursive;
+    color: #e8e8e8;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2),
+    0 0 15px rgba(0, 0, 0, 0.2),
+    0 0 25px rgba(0, 0, 0, 0.2),
+    ;
 }
 .Home .container .inform h1 span{
     font-family: 'Sriracha', cursive;
@@ -50,7 +50,7 @@ body
     text-transform: capitalize;
     font-size: 1.5em;
     opacity: 0.8;
-    color:var(--fourth);
+    color:var(--second);
 
 }
 .Home .container  .socialOverlay{
@@ -72,7 +72,7 @@ body
 .Home .container .socialOverlay  .Homesocial .social-icons {
         font-size: 25px;
         margin-top: 10px;
-        color: #dc3545;
+        color: var(--second);
     }
 
 .list-inline-item:not(:last-child) {

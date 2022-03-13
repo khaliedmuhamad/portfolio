@@ -5,6 +5,7 @@ import './moreProject.css';
 import {Carousel} from 'react-responsive-carousel';
 import Footer from '../../Footer/Footer'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Nav } from '../../NavBar/Nav.js';
 export   class MoreProject extends Component{
     
     state = {
@@ -31,6 +32,7 @@ export   class MoreProject extends Component{
     return (  
 
     <div className='MoreProject'>
+        <Nav />
         <div className='container'>
             <h1 className='h1'>{item.name}</h1>
             <p className='text-capitalize'>produced: {item.date}</p>

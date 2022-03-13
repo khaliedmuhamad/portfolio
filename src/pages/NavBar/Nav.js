@@ -8,7 +8,7 @@ export function Nav() {
   const [check, setCheck] = useState(false);
   return (
     <Router>
-      <nav className="navbar navbar-expand-md navbar-fixed navbar-light bg-light">
+      <nav className="navbar navbar-expand-md navbar-fixed navbar-light bg-transarent">
         <div className="container">
           <button
             className="navbar-toggler"

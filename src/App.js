@@ -4,23 +4,24 @@ import './pages/NavBar/Nav.css';
 import { BrowserRouter ,Switch ,Route } from 'react-router-dom';
 import { Nav } from './pages/NavBar/Nav.js';
 import './App.css';
-import { Home } from './pages/Home/Home';
 import  Footer  from './pages/Footer/Footer.js' 
 import { MoreProject } from './pages/Projects/moreProject/moreProject';
+
+import Content from './Content';
+
 function  App () {
   
 
   return ( 
     <BrowserRouter>
-     <div className='App'>
-        <Nav  />  
-      <Switch>
-      <Route path="/" component={Home} exact />
-      <Route path={'/Home/:id'} extact component={MoreProject} />
-     </Switch> 
+     <div className='App'>     
+  <Switch>
+      <Route path={'/'}  component={Content} exact />
+      <Route path={'/Home/:id'}  component={MoreProject} exact />
+     </Switch>
      <Footer />
       </div>
-
+ 
     </BrowserRouter>
   );
 }
